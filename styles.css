@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #444;
+  }
+  
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .code-box {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px;
+  }
+  
+  .placeholder {
+    color: #888;
+    font-style: italic;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .draggable {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: grab;
+    user-select: none;
+    text-align: center;
+  }
+  
+  .draggable:hover {
+    background: #0056b3;
+  }
+  
+  .draggable:active {
+    cursor: grabbing;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background: #218838;
+  }
